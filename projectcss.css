@@ -1,0 +1,227 @@
+/* Tanner Pobursky */
+
+
+body{
+    background-image: url("./images/topography.svg"), linear-gradient(110deg, #141e30,#243b55);
+    margin: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.gridpage{
+    display: grid;
+    grid-gap: 20px;
+    
+}
+
+
+.menuItems{
+    display: grid;
+    list-style: none;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    
+}
+
+
+.item{
+    background-color:powderblue;
+    width: 250px;
+    border: hidden;
+    padding: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+a:hover{
+    color: whitesmoke;
+    border: solid 1px white;
+   
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.picture{
+    text-align: center;
+    margin-top: 100px;
+
+    
+}
+
+.picture img{
+    width: 200px;
+    
+}
+
+.picture img:hover{
+    border: solid 1px white;
+    
+}
+
+
+.cards{
+    display: flex;
+    justify-content: stretch;
+    margin: 50px;
+}
+
+.cards p{
+    text-align: justify;
+    font-size: 90%;
+    line-height: 150%;
+    padding: 5px 0;
+}
+
+.cards ul{
+    text-align: justify;
+    font-size: 90%;
+    line-height: 150%;
+    padding: 5px 0;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards > div{
+    width: 25%;
+    padding: 15px;
+}
+
+.myport{
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 50px; 
+}
+
+h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 180%;
+}
+
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#about_me{
+    background-color: powderblue;
+    margin-top: 50px;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+
+.features-text{
+    text-align: center;
+    font-size: 25px;
+}
+
+#projects{
+    /* background-color: rgb(93, 124, 226); */
+    margin-top: 100px;
+    padding-top: 25px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.project_header h2{
+    color: white;
+}
+
+.project_list h2{
+    text-align: left;
+    
+}
+
+.project_title{
+    border-bottom: solid 1px white ;
+}
+
+.project_description{
+    
+}
+
+.project_link a:hover{
+    border: hidden;
+}
+
+.project_list{
+    margin-bottom: 70px;
+    background-color:powderblue;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+#resume{
+    text-align: center;
+    background-color:powderblue;
+    width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+}
+
+.resume p{
+    text-align: center;
+    font-size: 25px;
+}
+
+#contact_info{
+    text-align: left;
+    background-color:powderblue;
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+
+#resume p{
+    text-align: center;
+}
+
+#resume a{
+    border: hidden;
+}
+
+#resume h2{
+    
+}
+
+.smallIcon{
+display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #000000;
+    font-size: 120%;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+} 
+
+#contact_info ul{
+    list-style: none;
+}
+
+#contact_info li,p{
+ margin-bottom: 10px;
+}
